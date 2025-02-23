@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #656565;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #000000;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.film-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.film-item img {
+    width: 200px; /* Sett en fast bredde for bildene */
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Jevn overgang ved hover */
+}
+
+.film-item img:hover {
+    transform: scale(1.2); /* Gjør bildet 20% større når du holder musen over */
+}
+
+.film-item p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+.film-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.film-item img {
+    width: 200px; /* Sett en fast bredde for bildene */
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Jevn overgang ved hover */
+}
+
+.film-item img:hover {
+    transform: scale(1.2); /* Gjør bildet 20% større når du holder musen over */
+}
+
+.film-item p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+.product {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product h2 {
+    color: yellow;
+    font-size: 20px;
+}
+
+.product p {
+    color: white;
+    font-size: 16px;
+}
+
+.buy-button {
+    display: inline-block;
+    background-color: rgb(255, 251, 0);
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.film-beskrivelse {
+    display: none;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.film-beskrivelse {
+    font-size: 14px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
